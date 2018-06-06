@@ -59,6 +59,36 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserForm\ChiTietPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\ChiTietPhong.designer.cs">
+      <DependentUpon>ChiTietPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\DatPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\DatPhong.designer.cs">
+      <DependentUpon>DatPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\DichVuTungPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\DichVuTungPhong.designer.cs">
+      <DependentUpon>DichVuTungPhong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\Phong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\Phong.designer.cs">
+      <DependentUpon>Phong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserForm\TrangThaiPhong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm\TrangThaiPhong.designer.cs">
+      <DependentUpon>TrangThaiPhong.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -71,6 +101,21 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UserForm\ChiTietPhong.resx">
+      <DependentUpon>ChiTietPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\DatPhong.resx">
+      <DependentUpon>DatPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\DichVuTungPhong.resx">
+      <DependentUpon>DichVuTungPhong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\Phong.resx">
+      <DependentUpon>Phong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm\trangthaiphong.resx">
+      <DependentUpon>TrangThaiPhong.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
